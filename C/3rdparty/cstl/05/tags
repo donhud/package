@@ -1,0 +1,21 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CFLAGS	Makefile	/^CFLAGS=-g -I.\/  -I..\/libcstl-2.3.0\/$/;"	m
+LIBS	Makefile	/^LIBS= -L..\/libcstl-2.3.0\/src\/.libs -lcstl$/;"	m
+OBJS	Makefile	/^OBJS= test.o$/;"	m
+TARGET	Makefile	/^TARGET=test$/;"	m
+_min_element_t	test.c	/^typedef struct _min_element_t {$/;"	s	file:
+a	test.c	/^	int a;$/;"	m	struct:_min_element_t	file:
+char_min_element_find_value_2	test.c	/^min_element_t *char_min_element_find_value_2(map_t *thiz, char *key)$/;"	f
+char_min_get_map_2	test.c	/^int char_min_get_map_2(map_iterator_t *pit_m, char **key, void **value)$/;"	f
+char_min_insert_map_2	test.c	/^int char_min_insert_map_2(map_t *thiz, char *key, void *value)$/;"	f
+element_find_value_map	test.c	/^void *element_find_value_map(map_t *thiz, const void *key)$/;"	f
+element_get_map	test.c	/^int element_get_map(map_iterator_t *pit_m, void **key, void **value)$/;"	f
+element_insert_map	test.c	/^int element_insert_map(map_t *thiz, pair_t *ppair_p, void *key, void *value)$/;"	f
+id	test.c	/^	int id;$/;"	m	struct:_min_element_t	file:
+main	test.c	/^int main(int argc, char *argv)$/;"	f
+min_element_t	test.c	/^} min_element_t;$/;"	t	typeref:struct:_min_element_t	file:

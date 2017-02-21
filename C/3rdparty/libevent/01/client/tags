@@ -1,0 +1,15 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CFLAGS	Makefile	/^CFLAGS=-g -I\/root\/3rdparty_libevent\/include $/;"	m
+LIBS	Makefile	/^LIBS=-L\/root\/3rdparty_libevent\/lib -levent $/;"	m
+OBJS	Makefile	/^OBJS=main.o$/;"	m
+SA	main.c	/^typedef struct sockaddr SA;$/;"	t	typeref:struct:sockaddr	file:
+TARGET	Makefile	/^TARGET=client$/;"	m
+cmd_msg_cb	main.c	/^void cmd_msg_cb(int fd, short events, void *arg)$/;"	f
+main	main.c	/^int main(int argc, char **argv)$/;"	f
+socket_read_cb	main.c	/^void socket_read_cb(int fd, short events, void *arg)$/;"	f
+tcp_connect_server	main.c	/^int tcp_connect_server(const char *server_ip, int port)$/;"	f

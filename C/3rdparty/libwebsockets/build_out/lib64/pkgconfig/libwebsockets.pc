@@ -1,0 +1,11 @@
+prefix="/home/darkblue/Github/src/3rdparty/libwebsockets/build_out"
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib64
+includedir=${prefix}/include
+
+Name: libwebsockets
+Description: Websockets server and client library
+Version: 1.6.0
+
+Libs: -L${libdir} -lwebsockets
+Cflags: -I${includedir}

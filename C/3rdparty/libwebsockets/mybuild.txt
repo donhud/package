@@ -1,0 +1,9 @@
+tar libwebsockets.tar.bz2
+mkdir build_out
+cd libwebsockets
+mkdir build
+cd build
+cmake ../ -DCMAKE_INSTALL_PREFIX:PATH=/home/darkblue/Github/src/3rdparty/libwebsockets/build_out -DLIB_SUFFIX=64
+make
+make install
+

@@ -1,0 +1,185 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+IMPL	t_tree.c	13;"	d	file:
+MAP	t_tree.c	10;"	d	file:
+SET	t_tree.c	11;"	d	file:
+SIZE	t_queue.c	9;"	d	file:
+SIZE	t_stack.c	9;"	d	file:
+__T_TEST_H	t_test.h	2;"	d
+array	t_list.c	/^int array[6] = { 0, 1, 2, 3, 4, 5 };$/;"	v
+array	t_vector.c	/^static int array[] = { 0,1,2,3,4,5,6,7,8,9,10 };$/;"	v	file:
+ary	t_algo.c	/^static int ary[] = { 0,1,2,3,4,5,6,7,8,9 };$/;"	v	file:
+ary	t_queue.c	/^static int ary[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };$/;"	v	file:
+ary	t_stack.c	/^static int ary[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 };$/;"	v	file:
+assert_valid_iter	t_map.c	/^static void assert_valid_iter(c_pmap thiz, c_iterator val)$/;"	f	file:
+assert_valid_iter	t_set.c	/^static void assert_valid_iter(c_pset thiz, c_iterator val)$/;"	f	file:
+assert_valid_iter	t_tree.c	/^void assert_valid_iter(c_prb_tree thiz, c_iterator val)$/;"	f
+clear_queue	t_queue.c	/^static int clear_queue(c_pqueue ps)$/;"	f	file:
+clear_stack	t_stack.c	/^static int clear_stack(c_pstack ps)$/;"	f	file:
+clear_vector	t_vector.c	/^static void clear_vector(c_vector * p)$/;"	f	file:
+create_with_insert_equal	t_map.c	/^static int create_with_insert_equal(c_pmap thiz)$/;"	f	file:
+create_with_insert_equal	t_set.c	/^static int create_with_insert_equal(c_pset thiz)$/;"	f	file:
+create_with_insert_equal	t_tree.c	/^int create_with_insert_equal(c_prb_tree thiz)$/;"	f
+create_with_insert_equal1	t_map.c	/^static int create_with_insert_equal1(c_pmap thiz)$/;"	f	file:
+create_with_insert_equal1	t_set.c	/^static int create_with_insert_equal1(c_pset thiz)$/;"	f	file:
+create_with_insert_equal1	t_tree.c	/^int create_with_insert_equal1(c_prb_tree thiz)$/;"	f
+create_with_insert_equal2	t_map.c	/^static int create_with_insert_equal2(c_pmap thiz)$/;"	f	file:
+create_with_insert_equal2	t_set.c	/^static int create_with_insert_equal2(c_pset thiz)$/;"	f	file:
+create_with_insert_equal2	t_tree.c	/^int create_with_insert_equal2(c_prb_tree thiz)$/;"	f
+create_with_insert_unique	t_map.c	/^static int create_with_insert_unique(c_pmap thiz)$/;"	f	file:
+create_with_insert_unique	t_set.c	/^static int create_with_insert_unique(c_pset thiz)$/;"	f	file:
+create_with_insert_unique	t_tree.c	/^int create_with_insert_unique(c_prb_tree thiz)$/;"	f
+create_with_insert_unique1	t_map.c	/^static int create_with_insert_unique1(c_pmap thiz)$/;"	f	file:
+create_with_insert_unique1	t_set.c	/^static int create_with_insert_unique1(c_pset thiz)$/;"	f	file:
+create_with_insert_unique1	t_tree.c	/^int create_with_insert_unique1(c_prb_tree thiz)$/;"	f
+create_with_insert_unique2	t_map.c	/^static int create_with_insert_unique2(c_pmap thiz)$/;"	f	file:
+create_with_insert_unique2	t_set.c	/^static int create_with_insert_unique2(c_pset thiz)$/;"	f	file:
+create_with_insert_unique2	t_tree.c	/^int create_with_insert_unique2(c_prb_tree thiz)$/;"	f
+create_with_push	t_queue.c	/^static int create_with_push(c_pqueue ps, int ary[])$/;"	f	file:
+create_with_push	t_stack.c	/^static int create_with_push(c_pstack ps, int ary[])$/;"	f	file:
+create_with_push_back	t_list.c	/^static void create_with_push_back(c_list * p)$/;"	f	file:
+create_with_push_back	t_vector.c	/^static void create_with_push_back(c_vector * p)$/;"	f	file:
+create_with_push_front	t_list.c	/^static void create_with_push_front(c_list * p)$/;"	f	file:
+deduct_one	t_algo.c	/^static value_type deduct_one(value_type val)$/;"	f	file:
+erase_vector	t_vector.c	/^static void erase_vector()$/;"	f	file:
+inline	t_test.h	5;"	d
+int_comparer	t_algo.c	/^static int int_comparer(value_type x, value_type y)$/;"	f	file:
+int_comparer	t_list.c	/^static inline int int_comparer(void * x, void * y)$/;"	f	file:
+int_comparer	t_map.c	/^static inline int int_comparer(void * x, void * y)$/;"	f	file:
+int_comparer	t_queue.c	/^static int int_comparer(value_type x, value_type y)$/;"	f	file:
+int_comparer	t_set.c	/^static inline int int_comparer(void * x, void * y)$/;"	f	file:
+int_comparer	t_stack.c	/^static int int_comparer(value_type x, value_type y)$/;"	f	file:
+int_comparer	t_tree.c	/^static inline int int_comparer(void * x, void * y)$/;"	f	file:
+int_comparer	t_vector.c	/^static inline int int_comparer(void * x, void * y)$/;"	f	file:
+is_even	t_algo.c	/^static c_bool is_even(value_type val)$/;"	f	file:
+is_int_equal	t_algo.c	/^static c_bool is_int_equal(value_type x, value_type y)$/;"	f	file:
+keys	t_map.c	/^static int keys[] = $/;"	v	file:
+keys	t_set.c	/^static int keys[] = $/;"	v	file:
+keys	t_tree.c	/^static int keys[] = $/;"	v	file:
+list_assign	t_list.c	/^void list_assign(c_list * p)$/;"	f
+list_copy	t_list.c	/^void list_copy()$/;"	f
+list_equal	t_list.c	/^void list_equal()$/;"	f
+list_erase	t_list.c	/^void list_erase(c_list * p)$/;"	f
+list_front_back	t_list.c	/^void list_front_back(c_list * p)$/;"	f
+list_insert	t_list.c	/^void list_insert(c_list * p)$/;"	f
+list_less	t_list.c	/^void list_less()$/;"	f
+list_merge	t_list.c	/^void list_merge()$/;"	f
+list_remove	t_list.c	/^void list_remove(c_list * p)$/;"	f
+list_size	t_list.c	/^void list_size(c_list * p)$/;"	f
+list_sort	t_list.c	/^void list_sort()$/;"	f
+list_splice	t_list.c	/^void list_splice(c_list * p)$/;"	f
+list_splice1	t_list.c	/^void list_splice1(c_list * p)$/;"	f
+list_splice2	t_list.c	/^void list_splice2(c_list * p)$/;"	f
+list_swap	t_list.c	/^void list_swap(c_list * p)$/;"	f
+list_unique	t_list.c	/^void list_unique(c_list * p)$/;"	f
+main	t_main.c	/^int main()$/;"	f
+multi_equal_30	t_algo.c	/^static c_bool multi_equal_30(value_type x, value_type y)$/;"	f	file:
+pair_comparer	t_map.c	/^static inline int pair_comparer(void * x, void * y)$/;"	f	file:
+pair_comparer	t_set.c	/^static inline int pair_comparer(void * x, void * y)$/;"	f	file:
+pair_comparer	t_tree.c	/^static inline int pair_comparer(void * x, void * y)$/;"	f	file:
+pairs	t_map.c	/^static c_pair pairs[] =$/;"	v	file:
+pairs	t_tree.c	/^static c_pair pairs[] =$/;"	v	file:
+pary	t_algo.c	/^static int * pary[] = { &ary[0], &ary[1], &ary[2],$/;"	v	file:
+plus_one	t_algo.c	/^static value_type plus_one(value_type val)$/;"	f	file:
+print2	t_algo.c	/^static int print2(c_iterator first, c_iterator last)$/;"	f	file:
+print_list	t_list.c	/^static void print_list(c_list * p)$/;"	f	file:
+print_list2	t_list.c	/^static void print_list2(c_iterator first, c_iterator last)$/;"	f	file:
+print_list2_r	t_list.c	/^static void print_list2_r(c_reverse_iterator first, c_reverse_iterator last)$/;"	f	file:
+print_map	t_map.c	/^static int print_map(c_pmap pt)$/;"	f	file:
+print_queue	t_queue.c	/^static int print_queue(c_pqueue ps)$/;"	f	file:
+print_set	t_set.c	/^static int print_set(c_pset pt)$/;"	f	file:
+print_stack	t_stack.c	/^static int print_stack(c_pstack ps)$/;"	f	file:
+print_tree	t_tree.c	/^int print_tree(c_prb_tree pt)$/;"	f
+print_vector	t_vector.c	/^static void print_vector(c_vector * p)$/;"	f	file:
+print_vector2	t_vector.c	/^static void print_vector2(c_iterator first, c_iterator last)$/;"	f	file:
+print_vector2_r	t_vector.c	/^static void print_vector2_r(c_reverse_iterator first, c_reverse_iterator last)$/;"	f	file:
+reverse_print_list	t_list.c	/^static void reverse_print_list(c_list * p)$/;"	f	file:
+reverse_print_vector	t_vector.c	/^static void reverse_print_vector(c_vector * p)$/;"	f	file:
+rprint_map	t_map.c	/^static int rprint_map(c_pmap pt)$/;"	f	file:
+rprint_set	t_set.c	/^static int rprint_set(c_pset pt)$/;"	f	file:
+rprint_tree	t_tree.c	/^int rprint_tree(c_prb_tree pt)$/;"	f
+t_algo	t_algo.c	/^int t_algo()$/;"	f
+t_list	t_list.c	/^int t_list()$/;"	f
+t_map	t_map.c	/^int t_map()$/;"	f
+t_queue	t_queue.c	/^int t_queue()$/;"	f
+t_set	t_set.c	/^int t_set()$/;"	f
+t_stack	t_stack.c	/^int t_stack()$/;"	f
+t_tree	t_tree.c	/^int t_tree()$/;"	f
+t_vector	t_vector.c	/^int t_vector()$/;"	f
+test_adjacent_find_by_c_array	t_algo.c	/^static int test_adjacent_find_by_c_array()$/;"	f	file:
+test_adjacent_find_by_c_list	t_algo.c	/^static int test_adjacent_find_by_c_list()$/;"	f	file:
+test_adjacent_find_by_c_vector	t_algo.c	/^static int test_adjacent_find_by_c_vector()$/;"	f	file:
+test_advance	t_algo.c	/^static int test_advance(c_iterator first, c_iterator last)$/;"	f	file:
+test_advance_by_c_array	t_algo.c	/^static int test_advance_by_c_array()$/;"	f	file:
+test_advance_by_c_list	t_algo.c	/^static int test_advance_by_c_list()$/;"	f	file:
+test_advance_by_c_vector	t_algo.c	/^static int test_advance_by_c_vector()$/;"	f	file:
+test_at	t_map.c	/^static int test_at()$/;"	f	file:
+test_c_array	t_algo.c	/^static int test_c_array()$/;"	f	file:
+test_clear	t_map.c	/^static int test_clear(c_pmap thiz)$/;"	f	file:
+test_clear	t_set.c	/^static int test_clear(c_pset thiz)$/;"	f	file:
+test_clear	t_tree.c	/^int test_clear(c_prb_tree thiz)$/;"	f
+test_count	t_map.c	/^static int test_count(c_pmap thiz)$/;"	f	file:
+test_count	t_set.c	/^static int test_count(c_pset thiz)$/;"	f	file:
+test_count	t_tree.c	/^int test_count(c_prb_tree thiz)$/;"	f
+test_count_by_c_array	t_algo.c	/^static int test_count_by_c_array()$/;"	f	file:
+test_count_by_c_list	t_algo.c	/^static int test_count_by_c_list()$/;"	f	file:
+test_count_by_c_vector	t_algo.c	/^static int test_count_by_c_vector()	$/;"	f	file:
+test_count_if_by_c_array	t_algo.c	/^static int test_count_if_by_c_array()$/;"	f	file:
+test_count_if_by_c_list	t_algo.c	/^static int test_count_if_by_c_list()$/;"	f	file:
+test_count_if_by_c_vector	t_algo.c	/^static int test_count_if_by_c_vector()$/;"	f	file:
+test_equal	t_map.c	/^static int test_equal()$/;"	f	file:
+test_equal	t_set.c	/^static int test_equal()$/;"	f	file:
+test_equal	t_tree.c	/^int test_equal()$/;"	f
+test_erase	t_map.c	/^static int test_erase(c_pmap thiz)$/;"	f	file:
+test_erase	t_set.c	/^static int test_erase(c_pset thiz)$/;"	f	file:
+test_erase	t_tree.c	/^int test_erase(c_prb_tree thiz)$/;"	f
+test_find_by_c_array	t_algo.c	/^static int test_find_by_c_array()$/;"	f	file:
+test_find_by_c_list	t_algo.c	/^static int test_find_by_c_list()$/;"	f	file:
+test_find_by_c_vector	t_algo.c	/^static int test_find_by_c_vector()$/;"	f	file:
+test_find_erase	t_map.c	/^static int test_find_erase(c_pmap thiz)$/;"	f	file:
+test_find_erase	t_set.c	/^static int test_find_erase(c_pset thiz)$/;"	f	file:
+test_find_erase	t_tree.c	/^int test_find_erase(c_prb_tree thiz)$/;"	f
+test_find_if_by_c_array	t_algo.c	/^static int test_find_if_by_c_array()$/;"	f	file:
+test_find_if_by_c_list	t_algo.c	/^static int test_find_if_by_c_list()$/;"	f	file:
+test_find_if_by_c_vector	t_algo.c	/^static int test_find_if_by_c_vector()$/;"	f	file:
+test_for_each_by_c_array	t_algo.c	/^static int test_for_each_by_c_array()$/;"	f	file:
+test_for_each_by_c_list	t_algo.c	/^static int test_for_each_by_c_list()$/;"	f	file:
+test_for_each_by_c_vector	t_algo.c	/^static int test_for_each_by_c_vector()$/;"	f	file:
+test_less	t_map.c	/^static int test_less()$/;"	f	file:
+test_less	t_set.c	/^static int test_less()$/;"	f	file:
+test_less	t_tree.c	/^int test_less()$/;"	f
+test_reverse_by_c_array	t_algo.c	/^static int test_reverse_by_c_array()$/;"	f	file:
+test_reverse_by_c_list	t_algo.c	/^static int test_reverse_by_c_list()$/;"	f	file:
+test_reverse_by_c_vector	t_algo.c	/^static int test_reverse_by_c_vector()$/;"	f	file:
+test_reverse_erase	t_map.c	/^static int test_reverse_erase(c_pmap thiz)$/;"	f	file:
+test_reverse_erase	t_set.c	/^static int test_reverse_erase(c_pset thiz)$/;"	f	file:
+test_reverse_erase	t_tree.c	/^int test_reverse_erase(c_prb_tree thiz)$/;"	f
+test_reverse_find_erase	t_map.c	/^static int test_reverse_find_erase(c_pmap thiz)$/;"	f	file:
+test_reverse_find_erase	t_set.c	/^static int test_reverse_find_erase(c_pset thiz)$/;"	f	file:
+test_reverse_find_erase	t_tree.c	/^int test_reverse_find_erase(c_prb_tree thiz)$/;"	f
+test_search_by_c_array	t_algo.c	/^static int test_search_by_c_array()$/;"	f	file:
+test_search_by_c_list	t_algo.c	/^static int test_search_by_c_list()$/;"	f	file:
+test_search_by_c_vector	t_algo.c	/^static int test_search_by_c_vector()$/;"	f	file:
+test_size_empty	t_map.c	/^static int test_size_empty(c_pmap thiz)$/;"	f	file:
+test_size_empty	t_set.c	/^static int test_size_empty(c_pset thiz)$/;"	f	file:
+test_size_empty	t_tree.c	/^int test_size_empty(c_prb_tree thiz)$/;"	f
+test_swap	t_map.c	/^static int test_swap(c_pmap thiz)$/;"	f	file:
+test_swap	t_set.c	/^static int test_swap(c_pset thiz)$/;"	f	file:
+test_swap	t_tree.c	/^int test_swap(c_prb_tree thiz)$/;"	f
+values	t_map.c	/^static int values[] = $/;"	v	file:
+values	t_set.c	/^static int values[] = $/;"	v	file:
+values	t_tree.c	/^static int values[] = $/;"	v	file:
+vector_assign	t_vector.c	/^static void vector_assign(c_vector * p)$/;"	f	file:
+vector_equal	t_vector.c	/^static void vector_equal(c_vector * p)$/;"	f	file:
+vector_fill_insert	t_vector.c	/^static void vector_fill_insert(c_vector * p)$/;"	f	file:
+vector_front_back	t_vector.c	/^static void vector_front_back(c_vector * p)$/;"	f	file:
+vector_insert	t_vector.c	/^static void vector_insert(c_vector * p)$/;"	f	file:
+vector_insert2	t_vector.c	/^static void vector_insert2(c_vector * p)$/;"	f	file:
+vector_less	t_vector.c	/^static void vector_less(c_vector * p)$/;"	f	file:
+vector_reserve	t_vector.c	/^static void vector_reserve(c_vector * p)$/;"	f	file:
+vector_resize	t_vector.c	/^static void vector_resize(c_vector * p)$/;"	f	file:
+vector_swap	t_vector.c	/^static void vector_swap(c_vector * p)$/;"	f	file:

@@ -1,0 +1,58 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CONNECTION_BACKLOG	echoserver_threaded.c	30;"	d	file:
+LL_ADD	workqueue.c	13;"	d	file:
+LL_REMOVE	workqueue.c	19;"	d	file:
+NUM_THREADS	echoserver_threaded.c	35;"	d	file:
+SERVER_PORT	echoserver_threaded.c	28;"	d	file:
+SOCKET_READ_TIMEOUT_SECONDS	echoserver_threaded.c	32;"	d	file:
+SOCKET_WRITE_TIMEOUT_SECONDS	echoserver_threaded.c	33;"	d	file:
+WORKQUEUE_H	workqueue.h	9;"	d
+buf_ev	echoserver_threaded.c	/^	struct bufferevent *buf_ev;$/;"	m	struct:client	typeref:struct:client::bufferevent	file:
+buffered_on_error	echoserver_threaded.c	/^void buffered_on_error(struct bufferevent *bev, short what, void *arg) {$/;"	f
+buffered_on_read	echoserver_threaded.c	/^void buffered_on_read(struct bufferevent *bev, void *arg) {$/;"	f
+buffered_on_write	echoserver_threaded.c	/^void buffered_on_write(struct bufferevent *bev, void *arg) {$/;"	f
+client	echoserver_threaded.c	/^typedef struct client {$/;"	s	file:
+client_t	echoserver_threaded.c	/^} client_t;$/;"	t	typeref:struct:client	file:
+closeAndFreeClient	echoserver_threaded.c	/^static void closeAndFreeClient(client_t *client) {$/;"	f	file:
+closeClient	echoserver_threaded.c	/^static void closeClient(client_t *client) {$/;"	f	file:
+errorOut	echoserver_threaded.c	39;"	d	file:
+evbase	echoserver_threaded.c	/^	struct event_base *evbase;$/;"	m	struct:client	typeref:struct:client::event_base	file:
+evbase_accept	echoserver_threaded.c	/^static struct event_base *evbase_accept;$/;"	v	typeref:struct:event_base	file:
+fd	echoserver_threaded.c	/^	int fd;$/;"	m	struct:client	file:
+job	workqueue.h	/^typedef struct job {$/;"	s
+job_function	workqueue.h	/^	void (*job_function)(struct job *job);$/;"	m	struct:job
+job_t	workqueue.h	/^} job_t;$/;"	t	typeref:struct:job
+jobs_cond	workqueue.h	/^	pthread_cond_t jobs_cond;$/;"	m	struct:workqueue
+jobs_mutex	workqueue.h	/^	pthread_mutex_t jobs_mutex;$/;"	m	struct:workqueue
+killServer	echoserver_threaded.c	/^void killServer(void) {$/;"	f
+main	echoserver_threaded.c	/^int main(int argc, char *argv[]) {$/;"	f
+next	workqueue.h	/^	struct job *next;$/;"	m	struct:job	typeref:struct:job::job
+next	workqueue.h	/^	struct worker *next;$/;"	m	struct:worker	typeref:struct:worker::worker
+on_accept	echoserver_threaded.c	/^void on_accept(int fd, short ev, void *arg) {$/;"	f
+output_buffer	echoserver_threaded.c	/^	struct evbuffer *output_buffer;$/;"	m	struct:client	typeref:struct:client::evbuffer	file:
+prev	workqueue.h	/^	struct job *prev;$/;"	m	struct:job	typeref:struct:job::job
+prev	workqueue.h	/^	struct worker *prev;$/;"	m	struct:worker	typeref:struct:worker::worker
+runServer	echoserver_threaded.c	/^int runServer(void) {$/;"	f
+server_job_function	echoserver_threaded.c	/^static void server_job_function(struct job *job) {$/;"	f	file:
+setnonblock	echoserver_threaded.c	/^static int setnonblock(int fd) {$/;"	f	file:
+sighandler	echoserver_threaded.c	/^static void sighandler(int signal) {$/;"	f	file:
+terminate	workqueue.h	/^	int terminate;$/;"	m	struct:worker
+thread	workqueue.h	/^	pthread_t thread;$/;"	m	struct:worker
+user_data	workqueue.h	/^	void *user_data;$/;"	m	struct:job
+waiting_jobs	workqueue.h	/^	struct job *waiting_jobs;$/;"	m	struct:workqueue	typeref:struct:workqueue::job
+worker	workqueue.h	/^typedef struct worker {$/;"	s
+worker_function	workqueue.c	/^static void *worker_function(void *ptr) {$/;"	f	file:
+worker_t	workqueue.h	/^} worker_t;$/;"	t	typeref:struct:worker
+workers	workqueue.h	/^	struct worker *workers;$/;"	m	struct:workqueue	typeref:struct:workqueue::worker
+workqueue	echoserver_threaded.c	/^static workqueue_t workqueue;$/;"	v	file:
+workqueue	workqueue.h	/^	struct workqueue *workqueue;$/;"	m	struct:worker	typeref:struct:worker::workqueue
+workqueue	workqueue.h	/^typedef struct workqueue {$/;"	s
+workqueue_add_job	workqueue.c	/^void workqueue_add_job(workqueue_t *workqueue, job_t *job) {$/;"	f
+workqueue_init	workqueue.c	/^int workqueue_init(workqueue_t *workqueue, int numWorkers) {$/;"	f
+workqueue_shutdown	workqueue.c	/^void workqueue_shutdown(workqueue_t *workqueue) {$/;"	f
+workqueue_t	workqueue.h	/^} workqueue_t;$/;"	t	typeref:struct:workqueue
