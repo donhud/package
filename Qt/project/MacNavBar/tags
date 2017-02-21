@@ -1,0 +1,217 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	Makefile	/^AR            = ar cqs$/;"	m
+AR	example/Makefile	/^AR            = ar cqs$/;"	m
+CC	Makefile	/^CC            = gcc$/;"	m
+CC	example/Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -m64 -pipe -O2 -D_REENTRANT -Wall -W -fPIC $(DEFINES)$/;"	m
+CFLAGS	example/Makefile	/^CFLAGS        = -m64 -pipe -O2 -D_REENTRANT -Wall -W $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+CHK_DIR_EXISTS	example/Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COMPRESS	example/Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY	example/Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_DIR	example/Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+COPY_FILE	example/Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXX	example/Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -m64 -pipe -O2 -D_REENTRANT -Wall -W -fPIC $(DEFINES)$/;"	m
+CXXFLAGS	example/Makefile	/^CXXFLAGS      = -m64 -pipe -O2 -D_REENTRANT -Wall -W $(DEFINES)$/;"	m
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEFINES	example/Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_DIR	example/Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DEL_FILE	example/Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = bin\/$/;"	m
+DESTDIR	example/Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = \/usr\/local\/qt-4.7.2\/mkspecs\/common\/g++.conf \\$/;"	m
+DIST	example/Makefile	/^DIST          = \/usr\/local\/qt-4.7.2\/mkspecs\/common\/g++.conf \\$/;"	m
+INCPATH	Makefile	/^INCPATH       = -I\/usr\/local\/qt-4.7.2\/mkspecs\/linux-g++-64 -I. -I\/usr\/local\/qt-4.7.2\/include\/QtCore -I\/usr\/local\/qt-4.7.2\/include\/QtGui -I\/usr\/local\/qt-4.7.2\/include -I. -Iinclude -Itmp$/;"	m
+INCPATH	example/Makefile	/^INCPATH       = -I\/usr\/local\/qt-4.7.2\/mkspecs\/linux-g++-64 -I. -I\/usr\/local\/qt-4.7.2\/include\/QtCore -I\/usr\/local\/qt-4.7.2\/include\/QtGui -I\/usr\/local\/qt-4.7.2\/include -I. -I..\/include -Itmp$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_DIR	example/Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_FILE	example/Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+INSTALL_PROGRAM	example/Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LFLAGS	Makefile	/^LFLAGS        = -m64 -Wl,-O1 -Wl,-rpath,\/usr\/local\/qt-4.7.2\/lib -shared -Wl,-soname,libMacNavBar.so.1$/;"	m
+LFLAGS	example/Makefile	/^LFLAGS        = -m64 -Wl,-O1 -Wl,-rpath,\/usr\/local\/qt-4.7.2\/lib$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/local\/qt-4.7.2\/lib -lQtGui -L\/usr\/local\/qt-4.7.2\/lib -L\/usr\/X11R6\/lib64 -lQtCore -lpthread $/;"	m
+LIBS	example/Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/local\/qt-4.7.2\/lib -L..\/bin\/ -lMacNavBar -lQtGui -L\/usr\/local\/qt-4.7.2\/lib -L\/usr\/X11R6\/lib64 -lQtCore -lpthread $/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+LINK	example/Makefile	/^LINK          = g++$/;"	m
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MKDIR	example/Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+MOVE	example/Makefile	/^MOVE          = mv -f$/;"	m
+OBJECTS	Makefile	/^OBJECTS       = tmp\/clickablelabel.o \\$/;"	m
+OBJECTS	example/Makefile	/^OBJECTS       = tmp\/main.o$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = tmp\/$/;"	m
+OBJECTS_DIR	example/Makefile	/^OBJECTS_DIR   = tmp\/$/;"	m
+Private	src/navbar.cpp	/^class QfNavBar::Private {$/;"	c	class:QfNavBar	file:
+Private	src/navbargroup.cpp	/^class QfNavBarGroup::Private {$/;"	c	class:QfNavBarGroup	file:
+Private	src/navbaritem.cpp	/^class QfNavBarItem::Private {$/;"	c	class:QfNavBarItem	file:
+Private	src/selectablewidget.cpp	/^class QfSelectableWidget::Private {$/;"	c	class:QfSelectableWidget	file:
+QFUI_DEBUG	include/qf_uiexport.h	36;"	d
+QFUI_DEBUG_STRING	include/qf_uiexport.h	41;"	d
+QFUI_EXPORT	include/qf_uiexport.h	25;"	d
+QFUI_EXPORT	include/qf_uiexport.h	27;"	d
+QFUI_EXPORT	include/qf_uiexport.h	30;"	d
+QMAKE	Makefile	/^QMAKE         = \/usr\/local\/qt-4.7.2\/bin\/qmake$/;"	m
+QMAKE	example/Makefile	/^QMAKE         = \/usr\/local\/qt-4.7.2\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = MacNavBar$/;"	m
+QMAKE_TARGET	example/Makefile	/^QMAKE_TARGET  = example$/;"	m
+QfClickableLabel	include/qf_clickablelabel.h	/^class QFUI_EXPORT QfClickableLabel : public QLabel {$/;"	c
+QfClickableLabel	src/clickablelabel.cpp	/^QfClickableLabel::QfClickableLabel (QWidget *parent, Qt::WindowFlags f)$/;"	f	class:QfClickableLabel
+QfClickableLabel	src/clickablelabel.cpp	/^QfClickableLabel::QfClickableLabel (const QString& text, QWidget *parent, Qt::WindowFlags f)$/;"	f	class:QfClickableLabel
+QfNavBar	include/qf_navbar.h	/^class QFUI_EXPORT QfNavBar : public QWidget {$/;"	c
+QfNavBar	src/navbar.cpp	/^QfNavBar::QfNavBar (QWidget *parent)$/;"	f	class:QfNavBar
+QfNavBarGroup	include/qf_navbargroup.h	/^class QFUI_EXPORT QfNavBarGroup : public QWidget {$/;"	c
+QfNavBarGroup	src/navbargroup.cpp	/^QfNavBarGroup::QfNavBarGroup (QWidget *parent)$/;"	f	class:QfNavBarGroup
+QfNavBarGroup	src/navbargroup.cpp	/^QfNavBarGroup::QfNavBarGroup (const QString& title, QWidget *parent)$/;"	f	class:QfNavBarGroup
+QfNavBarItem	include/qf_navbaritem.h	/^class QFUI_EXPORT QfNavBarItem : public QfSelectableWidget {$/;"	c
+QfNavBarItem	src/navbaritem.cpp	/^QfNavBarItem::QfNavBarItem (QWidget *parent)$/;"	f	class:QfNavBarItem
+QfNavBarItem	src/navbaritem.cpp	/^QfNavBarItem::QfNavBarItem (const QPixmap& icon, const QString& text, QWidget *parent)$/;"	f	class:QfNavBarItem
+QfNavBarItem	src/navbaritem.cpp	/^QfNavBarItem::QfNavBarItem (const QString& text, QWidget *parent)$/;"	f	class:QfNavBarItem
+QfSelectableWidget	include/qf_selectablewidget.h	/^class QFUI_EXPORT QfSelectableWidget : public QWidget {$/;"	c
+QfSelectableWidget	src/selectablewidget.cpp	/^QfSelectableWidget::QfSelectableWidget (QWidget *parent)$/;"	f	class:QfSelectableWidget
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+RANLIB	example/Makefile	/^RANLIB        = $/;"	m
+SED	Makefile	/^SED           = sed$/;"	m
+SED	example/Makefile	/^SED           = sed$/;"	m
+SOURCES	Makefile	/^SOURCES       = src\/clickablelabel.cpp \\$/;"	m
+SOURCES	example/Makefile	/^SOURCES       = main.cpp $/;"	m
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+STRIP	example/Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+SYMLINK	example/Makefile	/^SYMLINK       = ln -f -s$/;"	m
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TAR	example/Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = libMacNavBar.so.1.0.0$/;"	m
+TARGET	example/Makefile	/^TARGET        = example$/;"	m
+TARGET0	Makefile	/^TARGET0       = libMacNavBar.so$/;"	m
+TARGET1	Makefile	/^TARGET1       = libMacNavBar.so.1$/;"	m
+TARGET2	Makefile	/^TARGET2       = libMacNavBar.so.1.0$/;"	m
+TARGETA	Makefile	/^TARGETA       = bin\/libMacNavBar.a$/;"	m
+TARGETD	Makefile	/^TARGETD       = libMacNavBar.so.1.0.0$/;"	m
+_QFUI_EXPORT_H_	include/qf_uiexport.h	21;"	d
+_QF_CLICKABLELABEL_H_	include/qf_clickablelabel.h	21;"	d
+_QF_NAVBARGROUP_H_	include/qf_navbargroup.h	21;"	d
+_QF_NAVBARITEM_H_	include/qf_navbaritem.h	21;"	d
+_QF_NAVBAR_H_	include/qf_navbar.h	21;"	d
+_QF_SELECTABLE_WIDGET_H_	include/qf_selectablewidget.h	21;"	d
+addGroup	src/navbar.cpp	/^QfNavBarGroup *QfNavBar::addGroup (const QString& title) {$/;"	f	class:QfNavBar
+addGroup	src/navbar.cpp	/^void QfNavBar::addGroup (QfNavBarGroup *group) {$/;"	f	class:QfNavBar
+addItem	src/navbar.cpp	/^QfNavBarItem *QfNavBar::addItem (QfNavBarGroup *group, const QPixmap& icon, const QString& text) {$/;"	f	class:QfNavBar
+addItem	src/navbar.cpp	/^QfNavBarItem *QfNavBar::addItem (QfNavBarGroup *group, const QString& text) {$/;"	f	class:QfNavBar
+addItem	src/navbar.cpp	/^void QfNavBar::addItem (QfNavBarGroup *group, QfNavBarItem *item) {$/;"	f	class:QfNavBar
+addItem	src/navbargroup.cpp	/^QfNavBarItem *QfNavBarGroup::addItem (const QPixmap& icon, const QString& text) {$/;"	f	class:QfNavBarGroup
+addItem	src/navbargroup.cpp	/^QfNavBarItem *QfNavBarGroup::addItem (const QPixmap& icon, const QString& text, int index) {$/;"	f	class:QfNavBarGroup
+addItem	src/navbargroup.cpp	/^QfNavBarItem *QfNavBarGroup::addItem (const QString& text) {$/;"	f	class:QfNavBarGroup
+addItem	src/navbargroup.cpp	/^void QfNavBarGroup::addItem (QfNavBarItem *item) {$/;"	f	class:QfNavBarGroup
+addItem	src/navbargroup.cpp	/^void QfNavBarGroup::addItem (QfNavBarItem *item, int index) {$/;"	f	class:QfNavBarGroup
+addSpacing	src/navbaritem.cpp	/^void QfNavBarItem::addSpacing (int size) {$/;"	f	class:QfNavBarItem
+addWidget	src/navbaritem.cpp	/^void QfNavBarItem::addWidget (QWidget *widget, int stretch) {$/;"	f	class:QfNavBarItem
+backgroundColor	src/navbar.cpp	/^QColor QfNavBar::backgroundColor (void) const {$/;"	f	class:QfNavBar
+clicked	tmp/moc_qf_clickablelabel.cpp	/^void QfClickableLabel::clicked()$/;"	f	class:QfClickableLabel
+clicked	tmp/moc_qf_clickablelabel.cpp	/^void QfClickableLabel::clicked(QfClickableLabel * _t1)$/;"	f	class:QfClickableLabel
+colorBackground	src/navbar.cpp	/^		QColor colorBackground;$/;"	m	class:QfNavBar::Private	file:
+colorSelection	src/navbar.cpp	/^		QColor colorSelection;$/;"	m	class:QfNavBar::Private	file:
+containsGroup	src/navbar.cpp	/^bool QfNavBar::containsGroup (QfNavBarGroup *group) {$/;"	f	class:QfNavBar
+containsItem	src/navbargroup.cpp	/^bool QfNavBarGroup::containsItem (QfNavBarItem *item) {$/;"	f	class:QfNavBarGroup
+d	include/qf_navbar.h	/^		Private *d;$/;"	m	class:QfNavBar
+d	include/qf_navbargroup.h	/^		Private *d;$/;"	m	class:QfNavBarGroup
+d	include/qf_navbaritem.h	/^		Private *d;$/;"	m	class:QfNavBarItem
+d	include/qf_selectablewidget.h	/^		Private *d;$/;"	m	class:QfSelectableWidget
+expand	src/navbargroup.cpp	/^void QfNavBarGroup::expand (bool expand) {$/;"	f	class:QfNavBarGroup
+expanded	tmp/moc_qf_navbargroup.cpp	/^void QfNavBarGroup::expanded(QfNavBarGroup * _t1)$/;"	f	class:QfNavBarGroup
+getStaticMetaObject	tmp/moc_qf_clickablelabel.cpp	/^const QMetaObject &QfClickableLabel::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:QfClickableLabel
+getStaticMetaObject	tmp/moc_qf_navbar.cpp	/^const QMetaObject &QfNavBar::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:QfNavBar
+getStaticMetaObject	tmp/moc_qf_navbargroup.cpp	/^const QMetaObject &QfNavBarGroup::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:QfNavBarGroup
+getStaticMetaObject	tmp/moc_qf_navbaritem.cpp	/^const QMetaObject &QfNavBarItem::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:QfNavBarItem
+getStaticMetaObject	tmp/moc_qf_selectablewidget.cpp	/^const QMetaObject &QfSelectableWidget::getStaticMetaObject() { return staticMetaObject; }$/;"	f	class:QfSelectableWidget
+groupSelected	src/navbar.cpp	/^		QfNavBarGroup *groupSelected;$/;"	m	class:QfNavBar::Private	file:
+icon	src/navbaritem.cpp	/^const QPixmap *QfNavBarItem::icon (void) const {$/;"	f	class:QfNavBarItem
+initialize	src/navbargroup.cpp	/^void QfNavBarGroup::Private::initialize (QfNavBarGroup *group) {$/;"	f	class:QfNavBarGroup::Private
+initialize	src/navbaritem.cpp	/^void QfNavBarItem::Private::initialize (QfNavBarItem *item) {$/;"	f	class:QfNavBarItem::Private
+insertSpacing	src/navbaritem.cpp	/^void QfNavBarItem::insertSpacing (int index, int size) {$/;"	f	class:QfNavBarItem
+insertWidget	src/navbaritem.cpp	/^void QfNavBarItem::insertWidget (int index, QWidget *widget, int stretch) {$/;"	f	class:QfNavBarItem
+isExpanded	src/navbargroup.cpp	/^		bool isExpanded;$/;"	m	class:QfNavBarGroup::Private	file:
+isExpanded	src/navbargroup.cpp	/^bool QfNavBarGroup::isExpanded (void) const {$/;"	f	class:QfNavBarGroup
+isSelected	src/selectablewidget.cpp	/^		bool isSelected;$/;"	m	class:QfSelectableWidget::Private	file:
+isSelected	src/selectablewidget.cpp	/^bool QfSelectableWidget::isSelected (void) const {$/;"	f	class:QfSelectableWidget
+itemSelected	src/navbar.cpp	/^		QfNavBarItem *itemSelected;$/;"	m	class:QfNavBar::Private	file:
+labelIcon	src/navbaritem.cpp	/^		QLabel *labelIcon;$/;"	m	class:QfNavBarItem::Private	file:
+labelText	src/navbaritem.cpp	/^		QLabel *labelText;$/;"	m	class:QfNavBarItem::Private	file:
+labelTitle	src/navbargroup.cpp	/^		QfClickableLabel *labelTitle;$/;"	m	class:QfNavBarGroup::Private	file:
+layout	src/navbar.cpp	/^		QVBoxLayout *layout;$/;"	m	class:QfNavBar::Private	file:
+layout	src/navbargroup.cpp	/^		QVBoxLayout *layout;$/;"	m	class:QfNavBarGroup::Private	file:
+layout	src/navbaritem.cpp	/^		QHBoxLayout *layout;$/;"	m	class:QfNavBarItem::Private	file:
+listItems	src/navbargroup.cpp	/^		QList<QfNavBarItem *> listItems;$/;"	m	class:QfNavBarGroup::Private	file:
+main	example/main.cpp	/^int main (int argc, char **argv) {$/;"	f
+metaObject	tmp/moc_qf_clickablelabel.cpp	/^const QMetaObject *QfClickableLabel::metaObject() const$/;"	f	class:QfClickableLabel
+metaObject	tmp/moc_qf_navbar.cpp	/^const QMetaObject *QfNavBar::metaObject() const$/;"	f	class:QfNavBar
+metaObject	tmp/moc_qf_navbargroup.cpp	/^const QMetaObject *QfNavBarGroup::metaObject() const$/;"	f	class:QfNavBarGroup
+metaObject	tmp/moc_qf_navbaritem.cpp	/^const QMetaObject *QfNavBarItem::metaObject() const$/;"	f	class:QfNavBarItem
+metaObject	tmp/moc_qf_selectablewidget.cpp	/^const QMetaObject *QfSelectableWidget::metaObject() const$/;"	f	class:QfSelectableWidget
+mouseReleaseEvent	src/clickablelabel.cpp	/^void QfClickableLabel::mouseReleaseEvent (QMouseEvent *event) {$/;"	f	class:QfClickableLabel
+mouseReleaseEvent	src/selectablewidget.cpp	/^void QfSelectableWidget::mouseReleaseEvent (QMouseEvent *event) {$/;"	f	class:QfSelectableWidget
+onGroupExpanded	src/navbar.cpp	/^void QfNavBar::onGroupExpanded (QfNavBarGroup *group) {$/;"	f	class:QfNavBar
+onItemSelected	src/navbar.cpp	/^void QfNavBar::onItemSelected (QfNavBarGroup *group, QfNavBarItem *item) {$/;"	f	class:QfNavBar
+onItemSelected	src/navbargroup.cpp	/^void QfNavBarGroup::onItemSelected (QfSelectableWidget *item) {$/;"	f	class:QfNavBarGroup
+onTitleClicked	src/navbargroup.cpp	/^void QfNavBarGroup::onTitleClicked (void) {$/;"	f	class:QfNavBarGroup
+paintEvent	src/navbar.cpp	/^void QfNavBar::paintEvent (QPaintEvent *event) {$/;"	f	class:QfNavBar
+qt_meta_data_QfClickableLabel	tmp/moc_qf_clickablelabel.cpp	/^static const uint qt_meta_data_QfClickableLabel[] = {$/;"	v	file:
+qt_meta_data_QfNavBar	tmp/moc_qf_navbar.cpp	/^static const uint qt_meta_data_QfNavBar[] = {$/;"	v	file:
+qt_meta_data_QfNavBarGroup	tmp/moc_qf_navbargroup.cpp	/^static const uint qt_meta_data_QfNavBarGroup[] = {$/;"	v	file:
+qt_meta_data_QfNavBarItem	tmp/moc_qf_navbaritem.cpp	/^static const uint qt_meta_data_QfNavBarItem[] = {$/;"	v	file:
+qt_meta_data_QfSelectableWidget	tmp/moc_qf_selectablewidget.cpp	/^static const uint qt_meta_data_QfSelectableWidget[] = {$/;"	v	file:
+qt_meta_stringdata_QfClickableLabel	tmp/moc_qf_clickablelabel.cpp	/^static const char qt_meta_stringdata_QfClickableLabel[] = {$/;"	v	file:
+qt_meta_stringdata_QfNavBar	tmp/moc_qf_navbar.cpp	/^static const char qt_meta_stringdata_QfNavBar[] = {$/;"	v	file:
+qt_meta_stringdata_QfNavBarGroup	tmp/moc_qf_navbargroup.cpp	/^static const char qt_meta_stringdata_QfNavBarGroup[] = {$/;"	v	file:
+qt_meta_stringdata_QfNavBarItem	tmp/moc_qf_navbaritem.cpp	/^static const char qt_meta_stringdata_QfNavBarItem[] = {$/;"	v	file:
+qt_meta_stringdata_QfSelectableWidget	tmp/moc_qf_selectablewidget.cpp	/^static const char qt_meta_stringdata_QfSelectableWidget[] = {$/;"	v	file:
+qt_metacall	tmp/moc_qf_clickablelabel.cpp	/^int QfClickableLabel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:QfClickableLabel
+qt_metacall	tmp/moc_qf_navbar.cpp	/^int QfNavBar::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:QfNavBar
+qt_metacall	tmp/moc_qf_navbargroup.cpp	/^int QfNavBarGroup::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:QfNavBarGroup
+qt_metacall	tmp/moc_qf_navbaritem.cpp	/^int QfNavBarItem::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:QfNavBarItem
+qt_metacall	tmp/moc_qf_selectablewidget.cpp	/^int QfSelectableWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)$/;"	f	class:QfSelectableWidget
+qt_metacast	tmp/moc_qf_clickablelabel.cpp	/^void *QfClickableLabel::qt_metacast(const char *_clname)$/;"	f	class:QfClickableLabel
+qt_metacast	tmp/moc_qf_navbar.cpp	/^void *QfNavBar::qt_metacast(const char *_clname)$/;"	f	class:QfNavBar
+qt_metacast	tmp/moc_qf_navbargroup.cpp	/^void *QfNavBarGroup::qt_metacast(const char *_clname)$/;"	f	class:QfNavBarGroup
+qt_metacast	tmp/moc_qf_navbaritem.cpp	/^void *QfNavBarItem::qt_metacast(const char *_clname)$/;"	f	class:QfNavBarItem
+qt_metacast	tmp/moc_qf_selectablewidget.cpp	/^void *QfSelectableWidget::qt_metacast(const char *_clname)$/;"	f	class:QfSelectableWidget
+select	src/selectablewidget.cpp	/^void QfSelectableWidget::select (bool isSelected) {$/;"	f	class:QfSelectableWidget
+select	src/selectablewidget.cpp	/^void QfSelectableWidget::select (void) {$/;"	f	class:QfSelectableWidget
+selected	tmp/moc_qf_navbargroup.cpp	/^void QfNavBarGroup::selected(QfNavBarGroup * _t1, QfNavBarItem * _t2)$/;"	f	class:QfNavBarGroup
+selected	tmp/moc_qf_selectablewidget.cpp	/^void QfSelectableWidget::selected()$/;"	f	class:QfSelectableWidget
+selected	tmp/moc_qf_selectablewidget.cpp	/^void QfSelectableWidget::selected(QfSelectableWidget * _t1)$/;"	f	class:QfSelectableWidget
+selectionColor	src/navbar.cpp	/^QColor QfNavBar::selectionColor (void) const {$/;"	f	class:QfNavBar
+setBackgroundColor	src/navbar.cpp	/^void QfNavBar::setBackgroundColor (const QColor& bgColor) {$/;"	f	class:QfNavBar
+setIcon	src/navbaritem.cpp	/^void QfNavBarItem::setIcon (const QPixmap& icon) {$/;"	f	class:QfNavBarItem
+setSelectionColor	src/navbar.cpp	/^void QfNavBar::setSelectionColor (const QColor& selectionColor) {$/;"	f	class:QfNavBar
+setText	src/navbaritem.cpp	/^void QfNavBarItem::setText (const QString& text) {$/;"	f	class:QfNavBarItem
+setTextColor	src/navbaritem.cpp	/^void QfNavBarItem::setTextColor (const QColor& color) {$/;"	f	class:QfNavBarItem
+setTitle	src/navbargroup.cpp	/^void QfNavBarGroup::setTitle (const QString& title) {$/;"	f	class:QfNavBarGroup
+setTitleColor	src/navbargroup.cpp	/^void QfNavBarGroup::setTitleColor (const QColor& color) {$/;"	f	class:QfNavBarGroup
+staticMetaObject	tmp/moc_qf_clickablelabel.cpp	/^const QMetaObject QfClickableLabel::staticMetaObject = {$/;"	m	class:QfClickableLabel	file:
+staticMetaObject	tmp/moc_qf_navbar.cpp	/^const QMetaObject QfNavBar::staticMetaObject = {$/;"	m	class:QfNavBar	file:
+staticMetaObject	tmp/moc_qf_navbargroup.cpp	/^const QMetaObject QfNavBarGroup::staticMetaObject = {$/;"	m	class:QfNavBarGroup	file:
+staticMetaObject	tmp/moc_qf_navbaritem.cpp	/^const QMetaObject QfNavBarItem::staticMetaObject = {$/;"	m	class:QfNavBarItem	file:
+staticMetaObject	tmp/moc_qf_selectablewidget.cpp	/^const QMetaObject QfSelectableWidget::staticMetaObject = {$/;"	m	class:QfSelectableWidget	file:
+text	src/navbaritem.cpp	/^QString QfNavBarItem::text (void) const {$/;"	f	class:QfNavBarItem
+title	src/navbargroup.cpp	/^QString QfNavBarGroup::title (void) const {$/;"	f	class:QfNavBarGroup
+unselect	src/selectablewidget.cpp	/^void QfSelectableWidget::unselect (void) {$/;"	f	class:QfSelectableWidget
+~QfClickableLabel	src/clickablelabel.cpp	/^QfClickableLabel::~QfClickableLabel() {$/;"	f	class:QfClickableLabel
+~QfNavBar	src/navbar.cpp	/^QfNavBar::~QfNavBar() {$/;"	f	class:QfNavBar
+~QfNavBarGroup	src/navbargroup.cpp	/^QfNavBarGroup::~QfNavBarGroup() {$/;"	f	class:QfNavBarGroup
+~QfNavBarItem	src/navbaritem.cpp	/^QfNavBarItem::~QfNavBarItem() {$/;"	f	class:QfNavBarItem
+~QfSelectableWidget	src/selectablewidget.cpp	/^QfSelectableWidget::~QfSelectableWidget() {$/;"	f	class:QfSelectableWidget

@@ -1,0 +1,63 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dino
+Name[sr]=Дино
+Name[sr@ijekavian]=Дино
+Name[sr@ijekavianlatin]=Dino
+Name[sr@latin]=Dino
+GenericName=Dino
+GenericName[sr]=Дино
+GenericName[sr@ijekavian]=Дино
+GenericName[sr@ijekavianlatin]=Dino
+GenericName[sr@latin]=Dino
+Comment=Simple File Manager
+Comment[sr]=Једноставни менаџер фајлова
+Comment[sr@ijekavian]=Једноставни менаџер фајлова
+Comment[sr@ijekavianlatin]=Jednostavni menadžer fajlova
+Comment[sr@latin]=Jednostavni menadžer fajlova
+Сomment[ru]=Простой файловый менеджер
+Exec=dino %u
+Icon=dino
+Terminal=false
+Type=Application
+StartupNotify=true
+Actions=Window;RootWindow;Text;Desktop;Documents;Pictures;Music;Movies;Root;
+Categories=FileTransfer;FileManager;Qt;
+MimeType=inode/directory;
+
+[Desktop Action Window]
+Name=New Window
+Name[ru]=Новое окно
+Exec=dino
+[Desktop Action RootWindow]
+Name=New Window as Root
+Name[ru]=Новое окно как администратор
+Exec=gksu dino
+[Desktop Action Text]
+Name=Dino text editor
+Name[ru]=Текстовый редактор 
+Exec=dino --texteditor
+[Desktop Action Desktop]
+Name=Desktop
+Name[ru]=Рабочий стол 
+Exec=dino --desktop
+[Desktop Action Documents]
+Name=Documents
+Name[ru]=Документы
+Exec=dino --documents
+[Desktop Action Pictures]
+Name=Pictures
+Name[ru]=Изображения
+Exec=dino --pictures
+[Desktop Action Music]
+Name=Music 
+Name[ru]=Mузыка
+Exec=dino --music
+[Desktop Action Movies]
+Name=Movies
+Name[ru]=Видео
+Exec=dino --movies
+[Desktop Action Root]
+Name=Root
+Name[ru]=/
+Exec=dino --root

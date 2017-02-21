@@ -1,0 +1,13 @@
+Must be installed Qt libs
+##############Compile################
+Run qmake Dino.pro  //to generate make file
+Run make            //Compile
+Run lrelease Dino.pro  //to generate translation files
+###########Running Dino##############
+Run ./Dino
+###########Installing Dino###########
+cp -r Dino /usr/share/Dino/bin
+cp -r translations/Dino_*.qm /usr/share/Dino/bin/translations/
+cp -r Dino.png /usr/share/Dino/
+ln -sf /usr/share/Dino/bin/Dino /usr/bin/dino
+cp -r dino.desktop /usr/share/applications/

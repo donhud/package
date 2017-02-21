@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>files/logo.png</file>
+        <file>files/background.jpg</file>
+        <file>files/img/hidden.png</file>
+        <file>files/faenza/computer.png</file>
+        <file>files/faenza/drive-harddisk.png</file>
+        <file>files/faenza/edit-copy.png</file>
+        <file>files/faenza/edit-cut.png</file>
+        <file>files/faenza/edit-delete.png</file>
+        <file>files/faenza/edit-paste.png</file>
+        <file>files/faenza/go-home.png</file>
+        <file>files/faenza/go-jump.png</file>
+        <file>files/faenza/go-next.png</file>
+        <file>files/faenza/go-previous.png</file>
+        <file>files/faenza/go-up.png</file>
+        <file>files/faenza/system-run.png</file>
+        <file>files/faenza/zoom-in.png</file>
+        <file>files/faenza/zoom-out.png</file>
+    </qresource>
+</RCC>

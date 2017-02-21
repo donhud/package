@@ -1,0 +1,33 @@
+Version 0.5
+ 1.Added themes support
+ 2.Added new command line options
+ 3.Added Unity desktop actions
+ 4.Added action "Select by pattern"
+ 5.Added actions "Select All" and "Clear selection"
+ 6.Added action "Clear clipboard"
+ 7.Added template files support
+ 8.Added Spanian translations - Thanks to mckaygerhard
+ 9.Bux fixes
+
+Version 0.4.1
+ 1.Added Serbian translations - Thanks to Mladen Pejaković
+
+Version 0.4
+ 1.New file system model
+ 2.Thumbnails cache support
+ 3.New settings added
+ 4.“Symlink target” item added to file properties dialog
+ 6.Hex editor added
+ 5.Closed some bugs and added some new 
+
+Version 0.3
+ 1.New tree view added
+ 2.Settings dialog added 
+ 3.Desktop files support added
+ 4.Properties dialog updated
+ 5.Closed some bugs
+
+Version 0.2
+ 1.Added permissions settings
+ 2.Added action New symlink
+ 3.Added custom actions system

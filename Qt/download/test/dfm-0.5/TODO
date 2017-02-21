@@ -1,0 +1,25 @@
+# Done - "+"
+# Unfulfilled - "-"
+# In developing - "*"
+0.6
+- Rebase project tree
+- Add action "Open with..."
+- To menu "Go to" add action "Templates"
+- Add custom shortcuts
+- Add action "Create launcher"
+
+0.5 (31 may)
+- Replace all "/" to QDir::separator +
+- Add new command line options +
+- Add action "Select by Pattern" +
+- Add action "Move to trash" -
+- Add Unity desktop actions +
+- Add themes support +
+- Add action "Clear selection" +
+- Add action "Select All" +
+- Clear mainwindow.cpp code +
+- Add actions Undo/Redo in text editor -
+- Rewrite DesktopApp::getIcon() +
+- Add action "Check for updates" -
+- Add templates files +
+- Add action "Clear clipboard" +

@@ -1,0 +1,11 @@
+Source: dfm
+Section: utils
+Version: 0.5
+Priority: optional
+Maintainer: Denis Kovalskiy <denimnumber1@gmail.com>
+Build-Depends: debhelper (>= 4.1.16), g++, libqt4-dev
+
+Package: dfm
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: Dino - Simple file manager based on Qt

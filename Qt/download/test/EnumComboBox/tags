@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AR	Makefile	/^AR            = ar cqs$/;"	m
+Apple	main.h	/^        Apple,$/;"	e	enum:ExampleClass::Type
+Banana	main.h	/^        Banana,$/;"	e	enum:ExampleClass::Type
+CC	Makefile	/^CC            = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS        = -m64 -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+CHK_DIR_EXISTS	Makefile	/^CHK_DIR_EXISTS= test -d$/;"	m
+COMPRESS	Makefile	/^COMPRESS      = gzip -9f$/;"	m
+COPY	Makefile	/^COPY          = cp -f$/;"	m
+COPY_DIR	Makefile	/^COPY_DIR      = $(COPY) -r$/;"	m
+COPY_FILE	Makefile	/^COPY_FILE     = $(COPY)$/;"	m
+CXX	Makefile	/^CXX           = g++$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS      = -m64 -pipe -O2 -Wall -W -D_REENTRANT $(DEFINES)$/;"	m
+DEFINES	Makefile	/^DEFINES       = -DQT_NO_DEBUG -DQT_GUI_LIB -DQT_CORE_LIB -DQT_SHARED$/;"	m
+DEL_DIR	Makefile	/^DEL_DIR       = rmdir$/;"	m
+DEL_FILE	Makefile	/^DEL_FILE      = rm -f$/;"	m
+DESTDIR	Makefile	/^DESTDIR       = $/;"	m
+DIST	Makefile	/^DIST          = \/usr\/local\/qt-4.7.2\/mkspecs\/common\/g++.conf \\$/;"	m
+ExampleClass	main.h	/^class ExampleClass : public QObject$/;"	c
+INCPATH	Makefile	/^INCPATH       = -I\/usr\/local\/qt-4.7.2\/mkspecs\/linux-g++-64 -I. -I\/usr\/local\/qt-4.7.2\/include\/QtCore -I\/usr\/local\/qt-4.7.2\/include\/QtGui -I\/usr\/local\/qt-4.7.2\/include -I.$/;"	m
+INSTALL_DIR	Makefile	/^INSTALL_DIR   = $(COPY_DIR)$/;"	m
+INSTALL_FILE	Makefile	/^INSTALL_FILE  = install -m 644 -p$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = install -m 755 -p$/;"	m
+LFLAGS	Makefile	/^LFLAGS        = -m64 -Wl,-O1 -Wl,-rpath,\/usr\/local\/qt-4.7.2\/lib$/;"	m
+LIBS	Makefile	/^LIBS          = $(SUBLIBS)  -L\/usr\/local\/qt-4.7.2\/lib -lQtGui -L\/usr\/local\/qt-4.7.2\/lib -L\/usr\/X11R6\/lib64 -lQtCore -lpthread $/;"	m
+LINK	Makefile	/^LINK          = g++$/;"	m
+MAIN_H	main.h	2;"	d
+MKDIR	Makefile	/^MKDIR         = mkdir -p$/;"	m
+MOVE	Makefile	/^MOVE          = mv -f$/;"	m
+NEMO_DECLARE_ENUM_QCOMBOBOX	EnumComboBox.h	10;"	d
+NEMO_NEW_ENUM_QCOMBOBOX	EnumComboBox.h	42;"	d
+OBJECTS	Makefile	/^OBJECTS       = main.o \\$/;"	m
+OBJECTS_DIR	Makefile	/^OBJECTS_DIR   = .\/$/;"	m
+Pear	main.h	/^        Pear,$/;"	e	enum:ExampleClass::Type
+Pineapple	main.h	/^        Pineapple$/;"	e	enum:ExampleClass::Type
+QMAKE	Makefile	/^QMAKE         = \/usr\/local\/qt-4.7.2\/bin\/qmake$/;"	m
+QMAKE_TARGET	Makefile	/^QMAKE_TARGET  = EnumComboBox$/;"	m
+RANLIB	Makefile	/^RANLIB        = $/;"	m
+SED	Makefile	/^SED           = sed$/;"	m
+SOURCES	Makefile	/^SOURCES       = main.cpp moc_main.cpp \\$/;"	m
+STRIP	Makefile	/^STRIP         = strip$/;"	m
+SYMLINK	Makefile	/^SYMLINK       = ln -f -s$/;"	m
+TAR	Makefile	/^TAR           = tar -cf$/;"	m
+TARGET	Makefile	/^TARGET        = EnumComboBox$/;"	m
+Type	main.h	/^    enum Type$/;"	g	class:ExampleClass
+main	main.cpp	/^int main(int argc, char *argv[])$/;"	f
+nemoRegisterEditorFactory	EnumComboBox.h	45;"	d

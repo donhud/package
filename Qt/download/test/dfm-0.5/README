@@ -1,0 +1,13 @@
+Dino is an easy to use and powerful file manager built in Qt.
+It’s features include symlinking files by mouse click, the usual features such as making directories, run commands, copying & pasting..etc; drag and drop and even a built in text editor.
+
+Features
+Easy to use
+Tabs support
+Multi selection
+Customizable interface
+Drag & drop support
+Thumbnail view
+Built-in text editor
+Custom actions
+List and tree view

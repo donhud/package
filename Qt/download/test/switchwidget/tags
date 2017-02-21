@@ -1,0 +1,55 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CSwitchWidget	switchwidget.cpp	/^CSwitchWidget::CSwitchWidget(QWidget *parent): QWidget(parent)$/;"	f	class:CSwitchWidget
+CSwitchWidget	switchwidget.h	/^class CSwitchWidget: public QWidget$/;"	c
+DrawPressBkGround	switchwidget.cpp	/^void CSwitchWidget::DrawPressBkGround(QPainter *painter, QRect &rect, uchar state)$/;"	f	class:CSwitchWidget
+DrawPressSlide	switchwidget.cpp	/^void CSwitchWidget::DrawPressSlide(QPainter *painter, QRect &rect, uchar state)$/;"	f	class:CSwitchWidget
+DrawPressStyle	switchwidget.cpp	/^void CSwitchWidget::DrawPressStyle(QPainter *painter, QRect &rect, uchar state)$/;"	f	class:CSwitchWidget
+DrawPressText	switchwidget.cpp	/^void CSwitchWidget::DrawPressText(QPainter *painter, QRect &rect, uchar state)$/;"	f	class:CSwitchWidget
+GRAPH_PRESSSTYLE_SYSTEM1	switchwidget.h	7;"	d
+GRAPH_PRESSSTYLE_SYSTEM2	switchwidget.h	8;"	d
+GetOffName	switchwidget.h	/^	QString			GetOffName()								{ return  m_offname;					};$/;"	f	class:CSwitchWidget
+GetOnName	switchwidget.h	/^	QString			GetOnName()									{ return  m_onname;						};$/;"	f	class:CSwitchWidget
+GetPressOffBkColor1	switchwidget.h	/^	QColor			GetPressOffBkColor1()						{ return  m_offbkcolor1;				};$/;"	f	class:CSwitchWidget
+GetPressOffBkColor2	switchwidget.h	/^	QColor			GetPressOffBkColor2()						{ return  m_offbkcolor2;				};$/;"	f	class:CSwitchWidget
+GetPressOnBkColor1	switchwidget.h	/^	QColor			GetPressOnBkColor1()						{ return  m_onbkcolor1;					};$/;"	f	class:CSwitchWidget
+GetPressOnBkColor2	switchwidget.h	/^	QColor			GetPressOnBkColor2()						{ return  m_onbkcolor2;					};$/;"	f	class:CSwitchWidget
+GetPressSlideColor1	switchwidget.h	/^	QColor			GetPressSlideColor1()						{ return  m_slidecolor1;				};$/;"	f	class:CSwitchWidget
+GetPressSlideColor2	switchwidget.h	/^	QColor			GetPressSlideColor2()						{ return  m_slidecolor2;				};$/;"	f	class:CSwitchWidget
+GetPressStyle	switchwidget.h	/^	uchar			GetPressStyle()								{ return m_pressstyle;					};$/;"	f	class:CSwitchWidget
+GetPressTextColor	switchwidget.h	/^	QColor			GetPressTextColor()							{ return  m_textcolor;					};$/;"	f	class:CSwitchWidget
+GetPressTextFont	switchwidget.h	/^	QFont			GetPressTextFont()							{ return m_textfont;					};$/;"	f	class:CSwitchWidget
+GetSwitchState	switchwidget.h	/^	uchar			GetSwitchState()							{ return m_state;						};$/;"	f	class:CSwitchWidget
+SetOffName	switchwidget.h	/^	void			SetOffName(QString name)					{ m_offname = name;						};$/;"	f	class:CSwitchWidget
+SetOnName	switchwidget.h	/^	void			SetOnName(QString name)						{ m_onname = name;						};$/;"	f	class:CSwitchWidget
+SetPressOffBkColor1	switchwidget.h	/^	void			SetPressOffBkColor1(QColor color)			{ m_offbkcolor1 = color;				};$/;"	f	class:CSwitchWidget
+SetPressOffBkColor2	switchwidget.h	/^	void			SetPressOffBkColor2(QColor color)			{ m_offbkcolor2 = color;				};$/;"	f	class:CSwitchWidget
+SetPressOnBkColor1	switchwidget.h	/^	void			SetPressOnBkColor1(QColor color)			{ m_onbkcolor1 = color;					};$/;"	f	class:CSwitchWidget
+SetPressOnBkColor2	switchwidget.h	/^	void			SetPressOnBkColor2(QColor color)			{ m_onbkcolor2 = color;					};$/;"	f	class:CSwitchWidget
+SetPressSlideColor1	switchwidget.h	/^	void			SetPressSlideColor1(QColor color)			{ m_slidecolor1 = color;				};$/;"	f	class:CSwitchWidget
+SetPressSlideColor2	switchwidget.h	/^	void			SetPressSlideColor2(QColor color)			{ m_slidecolor2 = color;				};$/;"	f	class:CSwitchWidget
+SetPressStyle	switchwidget.h	/^	void			SetPressStyle(uchar style)					{ m_pressstyle = style;					};$/;"	f	class:CSwitchWidget
+SetPressTextColor	switchwidget.h	/^	void			SetPressTextColor(QColor color)				{ m_textcolor = color;					};$/;"	f	class:CSwitchWidget
+SetPressTextFont	switchwidget.h	/^	void			SetPressTextFont(QFont font)				{ m_textfont = font;					};$/;"	f	class:CSwitchWidget
+SetSwitchState	switchwidget.h	/^	void			SetSwitchState(uchar state)					{ m_state = state;	repaint();			};$/;"	f	class:CSwitchWidget
+__SWITCHWIDGET_H__	switchwidget.h	2;"	d
+m_offbkcolor1	switchwidget.h	/^	QColor			m_offbkcolor1;		$/;"	m	class:CSwitchWidget
+m_offbkcolor2	switchwidget.h	/^	QColor			m_offbkcolor2;$/;"	m	class:CSwitchWidget
+m_offname	switchwidget.h	/^	QString			m_offname;$/;"	m	class:CSwitchWidget
+m_onbkcolor1	switchwidget.h	/^	QColor			m_onbkcolor1;$/;"	m	class:CSwitchWidget
+m_onbkcolor2	switchwidget.h	/^	QColor			m_onbkcolor2;$/;"	m	class:CSwitchWidget
+m_onname	switchwidget.h	/^	QString			m_onname;$/;"	m	class:CSwitchWidget
+m_pressstyle	switchwidget.h	/^	uchar 			m_pressstyle;		\/\/开关风格$/;"	m	class:CSwitchWidget
+m_slidecolor1	switchwidget.h	/^	QColor			m_slidecolor1;$/;"	m	class:CSwitchWidget
+m_slidecolor2	switchwidget.h	/^	QColor			m_slidecolor2;$/;"	m	class:CSwitchWidget
+m_state	switchwidget.h	/^	uchar			m_state;$/;"	m	class:CSwitchWidget
+m_textcolor	switchwidget.h	/^	QColor			m_textcolor;$/;"	m	class:CSwitchWidget
+m_textfont	switchwidget.h	/^	QFont			m_textfont;$/;"	m	class:CSwitchWidget
+mousePressEvent	switchwidget.cpp	/^void CSwitchWidget::mousePressEvent(QMouseEvent * event)$/;"	f	class:CSwitchWidget
+paintEvent	switchwidget.cpp	/^void CSwitchWidget::paintEvent(QPaintEvent *event)$/;"	f	class:CSwitchWidget
+uchar	switchwidget.h	/^typedef  unsigned char		uchar;$/;"	t
+~CSwitchWidget	switchwidget.cpp	/^CSwitchWidget::~CSwitchWidget()$/;"	f	class:CSwitchWidget
